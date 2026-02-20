@@ -23,8 +23,7 @@ void setup() {
 
 void loop() {
 
-    // TODO 6:
-    // Read digital value from IR sensor
+    int value = digitalRead(irPin);
 
     // TODO 7:
     // If obstacle detected
